@@ -82,7 +82,7 @@ class _OTPScreenState extends State<OTPScreen> with SingleTickerProviderStateMix
                         text: "Please type the verification code sent to your phone "
                       ),
                       TextSpan(
-                        text: "+2" + widget.phoneNumber,
+                        text: "+" + widget.phoneNumber,
                         style: TextStyle(
                           fontWeight: FontWeight.bold
                         )
