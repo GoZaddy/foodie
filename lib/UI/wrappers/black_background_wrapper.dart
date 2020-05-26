@@ -10,6 +10,7 @@ class BlackBackgroundWrapper extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff15172B),
       resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       body: child,
       bottomNavigationBar: bottomBar,
     );
